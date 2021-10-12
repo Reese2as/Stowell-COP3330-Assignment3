@@ -6,6 +6,8 @@ main()
 WordCounter()
 }
 class Words{
+int Frequency;
+String Word;
 }
 
 App <|- Words

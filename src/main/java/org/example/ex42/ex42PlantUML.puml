@@ -5,6 +5,9 @@ main()
 Parser()
 }
 class Records{
+ String First_Name;
+ String Last_Name;
+ int Salary;
 }
 App <|- Records
 Records <|- App

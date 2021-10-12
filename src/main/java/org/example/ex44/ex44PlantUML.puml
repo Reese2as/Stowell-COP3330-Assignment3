@@ -6,11 +6,18 @@ main()
 DoesProductExist()
 Printer()
 }
-class Object{}
-class Products{}
+class Object{
+ Products[] products;
+ int I;
+}
+class Products{
+ String name;
+ double price;
+ int quantity;
+}
+
 
 App <|- Object
-Object <|- App
 
 App <|- Products
 Products <|- App
