@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App{
+main()
+DoesProductExist()
+Printer()
+}
+class Object{}
+class Products{}
+
+App <|- Object
+Object <|- App
+
+App <|- Products
+Products <|- App
+
+Products<|- Object
+
+@enduml

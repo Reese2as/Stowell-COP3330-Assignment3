@@ -1,0 +1,25 @@
+In Main
+Initialize List(To take in names)
+
+Take in .txt file into List
+
+Call function to parse the Lastname Firstname and salary into separate values in Class Records(Set this equal to a Records array)
+
+Print the top of the table
+For the length of the array
+    Print the last name, first name and salary from Class records.
+
+In Function
+Intialize Records array(the size of the list that took the file)
+          String that tracks the Line we are taking from
+
+For the length of the array
+    Set the Record to the i index of the array
+    Take the first string of the index and store it in .Lastname of Class Records
+    Take the second string of the index and store it in .Firstname of Class Records
+    Take the int of the index and store it in .Salary of Class Records
+    Return Records array
+
+In Class records
+    hold a string for the firstname and last name
+    hold an int for the salary

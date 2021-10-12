@@ -1,0 +1,38 @@
+In Main
+Initialize Gson
+
+Use reader to take in json file
+Create variable of class object set = gson.fromjson with the file
+Call function Printer put through variable of class object
+
+In function Printer
+Initialize Scanner
+           String User_product(the product the user enters)
+           int for whether or not the item exists
+
+Prompt for users product and store it in String User_product
+set the int variable = Function Doesproductexist which takes in thevariable of class object and the user product
+
+If(int variable == 1)
+    print sorry that product doesnt exist and recall the print function
+else
+    print the product with its name, price and quantity
+
+In function Doesproduct exist
+    Set int variable = 1
+
+    For (the length of the array of products in class object variable)
+        if(the products name = the users product)
+            Set int variable = 2
+            set object variable.I from class products = 1
+
+     return int variable
+
+Class Object
+     products = array of class Products;
+     int I = -1;
+
+Class Products
+    String for name;
+    double for price;
+    int for quantity;

@@ -1,0 +1,40 @@
+In Main
+Initialize List(To take in words)
+          String for the list words as a string
+          String[] for the array of words
+          List of class words to take in the value from the class
+
+Take in .txt file into List using a while loop and scanner
+
+Set wordstring = to the list as a string using String.join
+Set String[] = to the wordsring as an array using .split
+Call function to count the words take in the string array set this equal to the list of class words
+
+For (the size of the list of class words)
+    print the word: taking the words from the class
+        For(the frequency of each word)
+            print *
+    Print \n to go to next line
+
+In function word counter
+    Initialize List of class words to take in the value from the class
+               Int that tracks whether the word taken in has been seen before
+
+    For(the length of the string array)
+        Set wordexists to 1
+            For(the size of the list of class words)
+            If(index of the String[] is = a word before
+                Add 1 to the quantity value
+                Set wordexists = 2
+    If(wordexsits == 1)*
+        create a temporary variable of class Words
+        set the frequency of temporary variable to 1
+        set the word of temporary variable to the word of the index i
+        add the temp to the List of class words
+
+return the list of class words
+
+In Class Words
+    hold an int for frequency
+    hold a String for the word
+    Create a function to return the word

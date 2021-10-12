@@ -1,0 +1,18 @@
+In Main
+Initialize List(To take in names)
+           List2(To take in sorted names)
+           Int(To count # of names)
+
+Take in .txt file into List using a while loop and scanner
+Call Function to sort names (This will be List2)
+Set # of Names = to size of List2
+
+Write Sorted names to new file
+    Print # of Names
+    For(each name in the list)
+        Write names to output
+
+In Function
+    Take in from Main unsorted List
+    Sort names alphabetically by last name
+    return sorted names as List

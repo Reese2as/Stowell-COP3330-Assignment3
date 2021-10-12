@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App{
+main()
+WordCounter()
+}
+class Words{
+}
+
+App <|- Words
+Words <|- App
+@enduml

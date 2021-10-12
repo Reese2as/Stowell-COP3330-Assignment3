@@ -1,0 +1,39 @@
+In Main
+Initialize Scanner for User input
+          String for site name
+          String for Author
+          String for Root of file
+          String for Js y/n value
+          String for Css y/n value
+
+Prompt user for site name and store it in String site name
+Prompt user for author and store it in String author
+Prompt user for whether they want a javascript file and store it in String Js
+Prompt user for whether they want a CSS file and store it in String Css
+
+Set Root = to path of website + the site name
+Call function to generate the website file
+
+Call function to generate the HTML file take in the site name and author for the HTML file
+
+if(js = y)
+    set Root = to path
+    Call function to generate JS file
+
+if(Css = y)
+    set Root = to path
+    Call function to generate CSS file
+
+In function Generatefile
+    Create file using root
+    print that the file was created
+
+In function HTMLfilecreator
+    using path create the html file
+    create a bufferedwriter
+    write the sitename into the <title> tag
+    write the author into the <meta> tag
+    print that the file was created
+
+
+

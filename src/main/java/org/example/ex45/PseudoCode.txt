@@ -1,0 +1,30 @@
+In Main
+Initialize List(To take in text)
+          Scanner
+          String Filename(to store the user inputed file name)
+          String for Root of file
+          String for the list text as a string
+          String for the replaced text
+
+Prompt user for name of the output file and store it in String Filename
+
+Take in .txt file into List using a while loop and scanner
+Set Root = to path of the output file
+
+Call function to generate the output file(takes in root)
+Set Textstring = to the list as a string using String.join
+Call function replacer to replace the word utilize with use and store it in replaced text
+
+Create a filewriter
+Write replaced text to the file created
+Print that the file was written successfully
+
+In function generatefile
+    using the root create the output file
+    if(the file is created)
+        print that the file was created
+
+In function replacer
+    set replaced text = to the text string with the word utilized replaced by use. This done using .replace
+    return the replaced text
+
